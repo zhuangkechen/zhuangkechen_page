@@ -16,10 +16,14 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/jquery.event.drag-1.5.min.js"></script>
+		<script src="js/jquery.touchSlider.js"></script>
+		<script src="js/kechen.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/header.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
@@ -27,8 +31,29 @@
 	<body>
 
 		<!-- Header -->
-			<section id="header" class="dark" background:url('images/header.jpg')>
-                <head> </head>
+			<section id="header" class="dark">
+		<div class="main_visual">
+                <div class="flicking_con">
+                	<div class="flicking_inner">
+                    <a href="javascript:">1</a>
+                    <a href="javascript:">2</a>
+                    <a href="javascript:">3</a>
+                    <a href="javascript:">4</a>
+                    <a href="javascript:">5</a>
+               	 </div>
+            </div>
+			<div class="main_image">
+				<ul>					
+					<li><span class="img_3"></span></li>
+					<li><span class="img_4"></span></li>
+					<li><span class="img_1"></span></li>
+					<li><span class="img_2"></span></li>
+					<li><span class="img_5"></span></li>
+				</ul>
+				<a href="javascript:;" id="btn_prev"></a>
+				<a href="javascript:;" id="btn_next"></a>
+			</div>
+			</div>
 			</section>
 			
 		<!-- First -->
