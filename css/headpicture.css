@@ -34,19 +34,19 @@ img{ border:none;}
 	height:422px;
 }
 .main_image li .img_1 {
-	background: url('../images/img_main_1.jpg') center top no-repeat;
+	background: url('../images/h1.jpg') center top no-repeat;
 }
 .main_image li .img_2 {
-	background: url('../images/img_main_2.jpg') center top no-repeat;
+	background: url('../images/h2.jpg') center top no-repeat;
 }
 .main_image li .img_3 {
-	background: url('../images/img_main_3.jpg') center top no-repeat;
+	background: url('../images/h3.jpg') center top no-repeat;
 }
 .main_image li .img_4 {
-	background: url('../images/img_main_4.jpg') center top no-repeat;
+	background: url('../images/h4.jpg') center top no-repeat;
 }
 .main_image li .img_5 {
-	background: url('../images/img_main_5.jpg') center top no-repeat;
+	background: url('../images/h5.jpg') center top no-repeat;
 }
 div.flicking_con {
 	width:990px;
